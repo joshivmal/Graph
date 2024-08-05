@@ -1,0 +1,35 @@
+Graph  -> 2 types
+
+Directed Graph  and Undirected Graph
+
+Directed Graph
+
+For Cycle detection we use ->  Dfs with two array and Kahn's algorithm 
+
+For Shortest Path ->
+                    (if graph has no cycle) then sort in topological order then relaxation of weights 
+                    else  ->  (+ve weights) use Dijasktras algorithm (for -ve weight Dijasktras went into infinite loop)
+
+                    Dijasktras
+                                -> using priority queue
+                                -> using queue
+                                -> using set
+                                        
+                              (-ve weights) Bellman-Ford: Suitable for single-source shortest paths and can detect negative-weight cycles.
+                                            Floyd-Warshall: multiple-source shortest paths Suitable for all-pairs shortest paths and can detect negative-weight cycles.
+Minimum Spanning Tree : spanning tree which has n nodes and n-1 edges and connects all nodes of graph, minimum spanning tree
+                        is the minimum sum spanning tree, they can be multiple MST of a graph
+        MST making algorithm:
+                        -> Kruskal Algorithm : 
+                        -> Prim's Algorithm : find's shortest edges from each node( uses greedy method)
+
+
+Undirected Graph
+
+For Cycle detection we use -> normal DFS and BFS with parent-child  method and visited array
+
+For Shortest Path -> normal relaxation with BFS (if graph has no cycle)
+                  -> Dijasktras 
+                                -> using priority queue
+                                -> using queue
+                                -> using set
