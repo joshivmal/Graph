@@ -1,4 +1,4 @@
-//bridgess in directed graph means all those edges, if we remove them then it will break that graph into different components
+//bridgess in directed graph means all those edges, if we remove them then it will break that graph into different components and increase number of componenets
 // observation :  all edges which are not part a of cycle  are bridgess 
 //Approach ->  we iterate one by one in k sized path  and mark TOI & LTOI a number from 1 to k according to path, if a node
 //              finds a adjacent node except parent  whose rank  is smaller than current node, present in path, then it means
