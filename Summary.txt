@@ -19,9 +19,7 @@ For Shortest Path ->
                                             Floyd-Warshall: multiple-source shortest paths Suitable for all-pairs shortest paths and can detect negative-weight cycles.
 Minimum Spanning Tree : spanning tree which has n nodes and n-1 edges and connects all nodes of graph, minimum spanning tree
                         is the minimum sum spanning tree, they can be multiple MST of a graph
-        MST making algorithm:
-                        -> Kruskal Algorithm : 
-                        -> Prim's Algorithm : find's shortest edges from each node( uses greedy method)
+ 
 
 
 Undirected Graph
@@ -33,3 +31,15 @@ For Shortest Path -> normal relaxation with BFS (if graph has no cycle)
                                 -> using priority queue
                                 -> using queue
                                 -> using set
+                  ->Bellman Ford
+                  ->Floyd Warshall
+
+ MST making algorithm:
+                  -> Kruskal Algorithm : 
+                  -> Prim's Algorithm : find's shortest edges from each node( uses greedy method)
+
+Other Important algorithm
+
+      ->bridges in graph (Tarjan's algorithm)
+      ->articulation points 
+      ->Strongly connected components (Kosaraju's algorithm)
